@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM & Events Listener Practice</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container pt-5">
+        <h1 class="text-center fw-bold text-primary pb-3">DOM and Event listener Practice</h1>
+        <form>
+            <div class="mb-3">
+                <label for="user-name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="user-name">
+            </div>
+            <div class="mb-3">
+                <label for="comment-area" class="form-label">Insert your comment:</label>
+                <textarea class="form-control" id="comment-area" rows="5"></textarea>
+            </div>
+            <a type="submit" class="btn btn-primary" id="submit">Submit</a>
+        </form>
+    </main>
+    <section class="container comments-section my-5">
+        <div class="row">
+            <div class="col" id="comment-container">
+            </div>
+        </div>
+    </section>
+
+    <section class="clock-section">
+        <div class="container">
+            <div id="time-div">
+                <h1 id="time" class="display-1 fw-bold text-center text-danger">Time now</h1>
+            </div>
+        </div>
+    </section>
+   
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
